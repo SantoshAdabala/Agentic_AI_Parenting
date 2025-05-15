@@ -1,2 +1,10 @@
-# Google App Engine generated folder
-appengine-generated/
+# don’t commit your environment or secrets
+env/
+.env
+
+# python artifacts
+__pycache__/
+*.pyc
+
+# macOS cruft
+.DS_Store
