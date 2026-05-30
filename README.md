@@ -1,6 +1,6 @@
 # Parenting Agent
 
-An AI-driven, modular Parenting Agent built with Google's Agent Development Kit (ADK) and FatSecret integration to answer all your parenting, nutrition, and basic medical questions — right from your command line.
+An AI-driven, modular Parenting Agent built with Google's Agent Development Kit (ADK) and FatSecret integration to answer all your parenting, nutrition, and basic medical questions - right from your command line.
 
 ---
 
@@ -19,11 +19,11 @@ An AI-driven, modular Parenting Agent built with Google's Agent Development Kit 
 
 ### Root Conversational Agent
 Delegates incoming queries to specialized sub-agents or tools:
-- **Parenting Analyst** — Child behavior, development milestones, and parenting tips.
-- **Nutrition Meal Planner** — Calories, macros, and custom meal plans powered by FatSecret's Nutrition API.
-- **Medical Advice Assistant** — Basic pediatric medical guidance (for non-emergency questions).
-- **Google Search & Data Fetch** — Falls back to web search or your own fetch_parenting_data tool for anything else.
-- **Current Time Tool** — Returns local date and time on demand.
+- **Parenting Analyst** - Child behavior, development milestones, and parenting tips.
+- **Nutrition Meal Planner** - Calories, macros, and custom meal plans powered by FatSecret's Nutrition API.
+- **Medical Advice Assistant** - Basic pediatric medical guidance (for non-emergency questions).
+- **Google Search & Data Fetch** - Falls back to web search or your own fetch_parenting_data tool for anything else.
+- **Current Time Tool** - Returns local date and time on demand.
 
 ### Stateful Sessions
 Uses an in-memory session service to remember user names and preferences across turns.
